@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from "../images/Logo.png"
 
 const Navbar = () => {
+
   return (
     <div className='navbar'>
       <div className="container">
